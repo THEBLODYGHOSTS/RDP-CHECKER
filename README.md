@@ -36,7 +36,7 @@ to conceal which connection method was used.
 
 ```text
 .
-├── fleet_ping.py       # Reachability checker
+├── rdp.py.py       # Reachability checker
 ├── a.txt               # IP addresses (ip:user:pass)
 ├── banner.txt          # Generated report
 ├── requirements.txt    # Python dependencies, if required
@@ -93,7 +93,7 @@ systems you are authorized to assess:
 
 ```bash
 source .venv/bin/activate
-python3 fleet_ping.py
+python3 rdp.py.py
 ```
 
 The expected report location is `banner.txt`, if configured by the program.
