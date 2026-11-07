@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fleet_ping.py - RDP CHECKER - MADE IN DHTOOLS - FROM #
+rdp.py - RDP CHECKER - MADE IN DHTOOLS - FROM #
 
 Input file (a.txt), one server per line:
     ip:user:pass
@@ -10,7 +10,7 @@ Output file:
     banner.txt
 
 Usage:
-    python3 fleet_ping.py
+    python3 rdp.py
 """
 
 from __future__ import annotations
