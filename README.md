@@ -37,7 +37,7 @@ to conceal which connection method was used.
 ```text
 .
 ├── fleet_ping.py       # Reachability checker
-├── targets.txt         # Hostnames or IP addresses (no credentials)
+├── a.txt               # IP addresses (ip:user:pass)
 ├── banner.txt          # Generated report
 ├── requirements.txt    # Python dependencies, if required
 └── README.md
@@ -45,13 +45,12 @@ to conceal which connection method was used.
 
 ## Input Format
 
-`targets.txt` contains one hostname or IP address per line.
+`a.txt` contains one IP address per line.
 
 ```text
 # Example documentation values only
-192.0.2.10
-198.51.100.20
-host01.example.test
+192.0.2.10:administrator:passs
+198.51.100.20:administrator:passs224
 ```
 
 Blank lines and lines beginning with `#` may be ignored.
