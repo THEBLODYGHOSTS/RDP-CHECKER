@@ -36,7 +36,7 @@ to conceal which connection method was used.
 
 ```text
 .
-├── rdp.py.py       # Reachability checker
+├── rdp.py       # Reachability checker
 ├── a.txt               # IP addresses (ip:user:pass)
 ├── banner.txt          # Generated report
 ├── requirements.txt    # Python dependencies, if required
